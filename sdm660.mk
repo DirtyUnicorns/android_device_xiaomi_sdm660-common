@@ -154,6 +154,11 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     vendor.qti.hardware.camera.device@1.0
 
+# Charging animation
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
     cneapiclient \
