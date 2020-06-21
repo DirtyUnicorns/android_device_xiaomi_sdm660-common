@@ -171,7 +171,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1 \
     persist.radio.VT_HYBRID_ENABLE=1 \
-    vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
+    vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+
+# SCHED_FIFO
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.use_fifo_ui=1
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
