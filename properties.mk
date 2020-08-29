@@ -157,14 +157,20 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
+    persist.vendor.radio.data_con_rprt=1 \
     ro.telephony.default_network=22,22 \
-    ro.vendor.use_data_netmgrd=true
-
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.vendor.use_data_netmgrd=true \
     DEVICE_PROVISIONED=1 \
     persist.sys.fflag.override.settings_network_and_internet_v2=true \
     ril.subscription.types=NV,RUIM \
-    telephony.lteOnCdmaDevice=1
+    telephony.lteOnCdmaDevice=1 \
+    persist.data.iwlan.enable=true \
+    persist.dbg.ims_volte_enable=1 \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.radio.VT_HYBRID_ENABLE=1 \
+    vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
