@@ -197,9 +197,6 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.1_vendor
 
 # Doze
-#PRODUCT_PACKAGES += \
-
-# Doze
 PRODUCT_PACKAGES += \
     CustomDoze
 
