@@ -1,0 +1,10 @@
+cc_library_shared {
+    name: "libcutils_shim",
+    srcs: ["strdup16to8.cpp",
+           "strdup8to16.cpp",
+    ],
+    shared_libs: [
+        "libcutils",
+    ],
+    product_specific: true,
+}
