@@ -258,7 +258,6 @@
          provisioning, availability etc -->
     <bool name="config_carrier_volte_available">true</bool>
 
-
     <string-array name="config_mobile_tcp_buffers">
         <item>"5gnr:2097152,6291456,16777216,512000,2097152,8388608"</item>
         <item>"lte:2097152,4194304,8388608,262144,524288,1048576"</item>
@@ -273,12 +272,10 @@
         <item>"evdo:4094,87380,524288,4096,16384,262144"</item>
     </string-array>
 
-
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
-
 
     <!-- Config determines whether to update phone object when voice registration
     state changes. Voice radio tech change will always trigger an update of
@@ -340,6 +337,9 @@
 
     <!-- Do the battery/notification LEDs support pulsing? Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">true</bool>
+
+    <!-- Multicolor Led Support -->
+    <bool name="config_multiColorBatteryLed">false</bool>
 
     <!-- Whether the always on display mode is available. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
