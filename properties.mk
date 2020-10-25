@@ -166,7 +166,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=22,22 \
     ro.vendor.use_data_netmgrd=true \
     DEVICE_PROVISIONED=1 \
-    persist.sys.fflag.override.settings_network_and_internet_v2=true \
     ril.subscription.types=NV,RUIM \
     telephony.lteOnCdmaDevice=1 \
     persist.data.iwlan.enable=true \
