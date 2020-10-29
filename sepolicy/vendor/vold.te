@@ -1,2 +1,3 @@
 typeattribute vold system_executes_vendor_violators;
+allow vold sysfs_mmc_host:file write;
 allow vold vendor_file:file read;
